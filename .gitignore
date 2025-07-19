@@ -1,0 +1,11 @@
+# Ignore virtual environment
+tf-env/
+flask_app/flask-env/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Uploaded images
+flask_app/static/*
+!flask_app/static/.keep
