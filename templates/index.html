@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Fake Product Detector</title>
+</head>
+<body>
+    <h1>Fake Product Detector</h1>
+    
+    <form action="/" method="POST" enctype="multipart/form-data">
+        <label for="image">Upload Product Image:</label>
+        <input type="file" name="image" required>
+        <br><br>
+        <button type="submit">Check Image</button>
+    </form>
+
+    {% if prediction %}
+        <h2>Prediction: {{ prediction }}</h2>
+    {% endif %}
+</body>
+</html>
+
