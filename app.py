@@ -5,7 +5,7 @@ import numpy as np
 import os
 
 app = Flask(__name__)
-model = load_model('./fake_product_model.h5')  # Adjust if your model path is different
+model = load_model('model/fake_product_detector.h5')  # Adjust if your model path is different
 
 # Route for home page
 @app.route('/')

@@ -4,7 +4,7 @@ from tensorflow.keras.preprocessing import image
 import numpy as np
 
 # Load the trained model
-model = load_model('fake_product_model.h5')
+model = load_model('model/fake_product_detector.h5')
 
 # Path to the test image
 img_path = 'test_images/sample.jpg'  # <--- Change this to your test image
